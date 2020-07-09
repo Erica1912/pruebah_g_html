@@ -1,0 +1,80 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+.container .form{      
+    width: 90%;
+    padding: 5px 35px; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-self: flex-start;
+    align-content: stretch;
+    align-items: flex-start;
+    
+}
+.container .form .form-header .form-title{
+    font-weight: normal;
+    font-family: sans-serif;
+    padding: 14px 0px;
+    
+}
+.container .form .form-group-label{
+    flex: 1;
+    align-self: 0;
+}
+.container .form .form-label{
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+    padding: 35px;
+
+}
+.container .form .form-input{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+.container .form .form-group-btn{
+   flex: 1;
+   align-self: center;
+   justify-content: center;
+   align-items: center;
+}
+.container .form .form-btn{
+    border-radius: 3px;
+    background: white;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 5px;        
+}
+
+.container  .form-new{
+    display: none;
+    padding: 35px;
+}
+
+.container .form1{
+    padding: 35px;
+    
+}
+
+.container .form1 .form1-input{
+    font-size: 12px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+.container .form1 .glass-total{
+    display: flex;
+    
+}
+.container .form1 .text-glass{
+    text-align:left;      
+}
+.container .form1 .glass{
+    text-align:center;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/myjavascript.js" defer></script>
+  <title>Prueba Técnica</title>
+</head>
+<body>
+  <div class="container">
+      <form action="" class="form">      
+        <div class="form-group-label"> 
+          <h2 class="form-title">Registro de consumo de agua</h2>
+          <label for="nombre" class="form-label">Nombre:</label>
+          <input type="text" id="nombre" class="form-input" placeholder="Escriba su nombre"><br/>
+          <label for="apellido" class="form-label">Apellido:</label>
+          <input type="text" id="apellido" class="form-input" placeholder="Escriba su apellido">
+        </div>
+        <div class="form-group-btn">
+          <input type="button" value="Mostrar" class="form-btn" onclick="myFunction()">
+        </div>
+      
+    </form>
+    <div id="showName" class="form-new">
+        <p id="text">Nombre Completo:</p><p id="objfullname"></p>
+    </div>    
+
+    <div class="form1">
+      <div class="glass-total">
+        <span class="text-glass">Cantidad de vasos consumidos en 5 días:</span><p id="glass" class="glass"></p><br/>
+      </div>
+      
+
+      <span>Día 1:</span>
+      <input type="text" name = "ftp_desc" id="val1" class="form1-input" onchange="sumar(this.value);" />
+      <br/>
+      <span>Día 2:</span>
+      <input type="text" name = "ftp_desc" id="val2" class="form1-input"  onchange="sumar(this.value);" />
+      <br/>
+      <span>Día 3:</span>
+      <input type="text"  name = "ftp_desc" id="val3" class="form1-input" onchange="sumar(this.value);" />
+      <br/>
+      <span>Día 4:</span>
+      <input type="text" name = "ftp_desc" id="val4" class="form1-input" onchange="sumar(this.value);" />
+      <br/>
+      <span>Día 5:</span>
+      <input type="text" name = "ftp_desc" id="val5" class="form1-input" onchange="sumar(this.value);" />
+      <br/>
+      <span>Día 6:</span>
+      <input type="text" id="val6" class="form1-input" onchange="sumar(this.value);" />
+      <br/>
+      <span>Día 7:</span>
+      <input type="text" id="val7" class="form1-input" onchange="sumar(this.value);" />
+      <br/>
+      
+      <span>Total vasos consumidos </span> <span id="spTotal"></span>
+    </div>
+  </div>
+</body>
+</html>
